@@ -1,0 +1,25 @@
+body{
+    background-color: lightblue;
+    margin: 0;
+}
+.information{
+    border-width: 5px;
+    border-style: dashed;
+    border-color: black;
+    border-collapse: collapse;
+    width: 30vw;
+    margin: 5px;
+    padding: 5px;
+}
+
+.construction{
+    color: orangered;
+}
+
+#Header{
+    margin: 0;
+}
+
+.Margin{
+    margin: 5px;
+}
