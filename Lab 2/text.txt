@@ -1,0 +1,27 @@
+<main>
+        <div class="row carTitle1">
+            <div class="col s12 center-align">
+                <h4><b>DODGE CHARGER</b></h4>
+            </div>
+            <div class="col s12">
+                <img src="Dodge.png">
+            </div>
+        </div>
+        <div class="row carTitle2">
+            <div class="col s12 center-align">
+                <h4><b>FORD MUSTANG</b></h4>
+            </div>
+            <div class="col s12">
+                <img src="Ford.png">
+            </div>
+            
+        </div>
+        <div class="row carTitle3">
+            <div class="col s6">
+                <h4><b>CHEVY CAMARO</b></h4>
+            </div>
+            <div class="col s6">
+                <img src="Camaro.png">
+            </div>
+        </div>
+    </main>

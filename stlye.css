@@ -1,0 +1,21 @@
+h1{
+    color: orange;
+ }
+ p{
+     color: slateblue;
+ }
+
+ .container{
+    border-width: 5px;
+    border-style: solid;
+    border-color: crimson;
+    margin: 20px;
+    padding: 20px;
+ }
+
+ #list{
+    font-size: 30px;
+ }
+ body{
+    background-color: pink;
+ }

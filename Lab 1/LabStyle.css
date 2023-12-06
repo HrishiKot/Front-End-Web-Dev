@@ -1,11 +1,14 @@
+.rowColor{
+    background-color: orangered;
+}
 body{
-    background-color: lightblue;
+    background: #80d8ff;
     margin: 0;
 }
 .information{
     border-width: 5px;
     border-style: dashed;
-    border-color: black;
+    border-color: green;
     border-collapse: collapse;
     width: 30vw;
     margin: 5px;
@@ -13,7 +16,7 @@ body{
 }
 
 .construction{
-    color: orangered;
+    color: orange;
 }
 
 #Header{
@@ -23,3 +26,8 @@ body{
 .Margin{
     margin: 5px;
 }
+
+.hidden{
+    display: none;
+}
+

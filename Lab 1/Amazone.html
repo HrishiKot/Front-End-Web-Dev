@@ -7,36 +7,6 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
         <link rel="stylesheet" href="LabStyle.css">
         <title>AmaZone</title>
-        <style>
-            .rowColor{
-                background-color: orangered;
-            }
-            body{
-                background: #80d8ff;
-                margin: 0;
-            }
-            .information{
-                border-width: 5px;
-                border-style: dashed;
-                border-color: green;
-                border-collapse: collapse;
-                width: 30vw;
-                margin: 5px;
-                padding: 5px;
-            }
-            
-            .construction{
-                color: orange;
-            }
-            
-            #Header{
-                margin: 0;
-            }
-            
-            .Margin{
-                margin: 5px;
-            }
-        </style>
     </head>
     <body class="white-text">
         <img src="AmaZone.jpg" width="1519" id="Header">
@@ -46,9 +16,9 @@
             <h4>CloTthing: fresh and handmade from Denmark shipped to you for free at a cost of $50</h4>
                 <p>HOODIES: Click on the pictures to buy from the original store for more</p>
                     <a href="https://electrothreads.com/products/neon-alien-invasion-dawn-unisex-hoodie"><img src="Aliean.jpg" width="150"></a>
-                    <a href="https://www.aliexpress.us/item/2255801094445747.html?gatewayAdapt=glo2usa4itemAdapt    "></a><img src="Everything.jpg" width="200"></a>
-                    <a href="https://thatshirtwascash.com/products/extra-weird-hoodie"></a><img src="WeirdBaby.jpg" width="200"></a>
-                    <a href="https://www.aliexpress.us/item/3256803606213754.html?gatewayAdapt=glo2usa4itemAdapt"></a><img src="Skulls.jpg" width="200" ></a>
+                    <a href="https://www.aliexpress.us/item/2255801094445747.html?gatewayAdapt=glo2usa4itemAdapt    "></a><img src="Everything.jpg" width="200">
+                    <a href="https://thatshirtwascash.com/products/extra-weird-hoodie"></a><img src="WeirdBaby.jpg" width="200">
+                    <a href="https://www.aliexpress.us/item/3256803606213754.html?gatewayAdapt=glo2usa4itemAdapt"></a><img src="Skulls.jpg" width="200" >
                     <a href="https://www.lelemoon.com/product/barbie-stay-weird-shirt-hoodie-women-tee-sweatshirt/"><img src="https://www.lelemoon.com/wp-content/uploads/2023/08/Barbie-Stay-Weird-Shirt_2_1.jpg" width="200"></a>
             <h4>Tecknoloji: everything is fried to crisp perfecksion</h4>  
                 <p>These are only ideas from that you can buy only here created by: <a href="https://unnecessaryinventions.com/">Unnecessary Inventions</a></p>
@@ -58,11 +28,16 @@
                     <img src="https://unnecessaryinventions.com/wp-content/uploads/2020/04/Selfie-Sandals-small.jpg" width="250">
                     <img src="https://unnecessaryinventions.com/wp-content/uploads/2019/07/UtilityNails-2-small.jpg" width="250">
             <h4>Foodo: don't ever worry about losing your appetite it cause we do it for you with these</h4>
-                    <img src="https://images.heb.com/is/image/HEBGrocery/000275409-1" width="175">
-                    <img src="https://i.pinimg.com/736x/19/74/4f/19744f2a27a8de559357edf0b1a3cda3--crazy-inventions-funny-inventions.jpg" width="160">
-                    <img src="https://m.media-amazon.com/images/I/61wL-oRP6NL.jpg" width="175">
-                    <img src="https://www.kroger.com/product/images/large/front/0086626700013" width="150">
-                    <img src="https://www.candycarrollton.com/cdn/shop/products/BoxofGummyBoogers_1024x1024.jpg?v=1585761402" width="175">
+                <div class="divImg">   
+                    <img src="https://images.heb.com/is/image/HEBGrocery/000275409-1" width="175" class="hidden">
+                    <img src="https://i.pinimg.com/736x/19/74/4f/19744f2a27a8de559357edf0b1a3cda3--crazy-inventions-funny-inventions.jpg" width="160" class="hidden">
+                    <img src="https://m.media-amazon.com/images/I/61wL-oRP6NL.jpg" width="175" class="hidden">
+                    <img src="https://www.kroger.com/product/images/large/front/0086626700013" width="150" class="hidden">
+                    <img src="https://www.candycarrollton.com/cdn/shop/products/BoxofGummyBoogers_1024x1024.jpg?v=1585761402" width="175" class="hidden">
+                    <br>
+                    <button id="Previous">Previous</button>
+                    <button id="Next">Next</button>
+                </div>
 
             <h3>Items:</h3>
             <h4>Select your CloTthing(s):</h4>
@@ -189,7 +164,7 @@
                         <br>
                         <input placeholder="xxx" id="CVC" type="text" inputmode="numeric" maxlength="3" class="validate" required>
                     </div>
-                    <button class="btn-large waves-effect waves-light" type="submit" name="action">Submit
+                    <button class="btn-large waves-effect waves-light" type="submit" name="action" id="submit">Submit
                         <i class="material-icons right">send</i>
                     </button>
 
@@ -198,7 +173,13 @@
         </div>
 
         <h4 class="rowColor center-align construction">STILL UNDER DEVELOPMENT!!!!!</h4>
-
+        <h6 class="center-align black">Take a break and try the demo quiz from our new website DoUKnowURCars.com</h6>
+        <div class="container center-align">
+            <h1>Car Quiz</h1>
+            <p id="question"></p>
+            <div id="answer" class="row"></div>
+        </div>
+        <br><br>
+        <script src="LabJS.js"></script> 
     </body>
-
 </html>
